@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "remander": "/components/remander",
+    "goods": "/components/goods"
+  }
+}

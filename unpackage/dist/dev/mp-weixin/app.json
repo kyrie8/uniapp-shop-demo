@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/info/info",
+    "pages/news/news",
+    "pages/news-detail/news-detail",
+    "pages/good-detail/good-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "购物中心",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#b50e03",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/homes.png",
+        "selectedIconPath": "static/home.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/inters.png",
+        "selectedIconPath": "static/inter.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/cars.png",
+        "selectedIconPath": "static/car.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/info/info",
+        "iconPath": "static/infos.png",
+        "selectedIconPath": "static/info.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap96.json"
+}

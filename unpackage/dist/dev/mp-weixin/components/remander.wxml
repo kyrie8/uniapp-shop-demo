@@ -1,0 +1,1 @@
+<view class="remander"><block wx:for="{{remanders}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><block><view class="item" href="{{item.link}}" data-event-opts="{{[['tap',[['goToBuy',['$0'],[[['remanders','id',item.id,'link']]]]]]]}}" bindtap="__e"><image src="{{item.url}}"></image><label class="_span">{{item.des}}</label></view></block></block></view>
